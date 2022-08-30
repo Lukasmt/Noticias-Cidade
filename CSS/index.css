@@ -68,14 +68,12 @@ ul{
 }
 #duas-colunas #primario{
   width: 555px;
-  background: blue;
   float: left;
   margin: 0 0 20px 195px;
 
 }
 #secundario{
   width: 270px;
-  background: green;
   float: left;
   margin: 0 0 20px 15px;
   }
@@ -110,7 +108,6 @@ h2{
 
 }
 #rodape{
-  
   width: 750px;
   margin: 0 auto;
   color: #fff;
@@ -132,4 +129,21 @@ h2{
   background: #f9f9f9 url(../imagens/marcador.png) no-repeat left center;
   color: #a1a1a1;
   padding-left: 20px;
+}
+label{
+  display: block;
+  cursor: pointer;
+}
+input{
+  padding: 5px;
+  width: 125px;
+  font-size: 0.9em;
+  background-color: #fff;
+}
+input.submit{
+  width: 80px;
+  color: #fff;
+  background-color: #b10333;
+  border: 2px solid #870529;
+  
 }
